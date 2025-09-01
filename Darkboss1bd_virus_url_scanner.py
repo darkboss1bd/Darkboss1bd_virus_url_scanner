@@ -141,17 +141,17 @@ Your current status: API KEY NOT SET"""
 
 # Create GUI
 root = tk.Tk()
-root.title("💀 CYBER SECURITY - VIRUS TOTAL URL SCANNER 💀")
+root.title("💀 DARKBOSS1BD-HACKER CYBER SECURITY - VIRUS TOTAL URL SCANNER 💀")
 root.geometry("800x600")
 root.configure(bg="#0d0d0d")
 root.resizable(True, True)
 
 # Banner
-banner = tk.Label(root, text="💀 CYBER SECURITY MALWARE DETECTOR 💀", 
+banner = tk.Label(root, text="💀 CYBER SECURITY HACKER MALWARE DETECTOR 💀", 
                   font=("Courier", 18, "bold"), fg="#00ff00", bg="#0d0d0d")
 banner.pack(pady=15)
 
-subtitle = tk.Label(root, text="Advanced URL Scanner with VirusTotal API Integration", 
+subtitle = tk.Label(root, text=" darkboss1bd Advanced URL Scanner with VirusTotal API Integration", 
                    font=("Courier", 11), fg="#00cc00", bg="#0d0d0d")
 subtitle.pack(pady=5)
 
@@ -254,4 +254,5 @@ status_bar = tk.Label(root, text="Status: Ready | API: VirusTotal | Security Lev
 status_bar.pack(side=tk.BOTTOM, fill=tk.X)
 
 # Main loop
+
 root.mainloop()
